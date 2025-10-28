@@ -1,9 +1,23 @@
 def power(base, exponent):
     """Raise base to the power of exponent"""
-    return
+    if(exponent == 0):
+        return 1
+    else:
+        return base * power(base , exponent - 1 )
 
 def square_root(n):
     """Calculate square root of n"""
+    return n **(1/2)
 
 def modulo(a, b):
     """Calculate remainder of a divided by b"""
+
+    return a % b
+
+
+
+print (power(5,4))
+
+print(square_root(9))
+
+print(modulo(4, 3))
