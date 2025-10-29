@@ -1,4 +1,4 @@
-import add, subtract, multiply, divide from calculos-dev1
+import add, subtract, multiply, divide
 import power, square_root, modulo from calculos-dev2
 
 def addAndPower(a, b, exponent):
@@ -9,3 +9,5 @@ def subtractAndRoot(a, b):
 
 def multiplyAndModulo(a, b, mod):
     return
+
+
