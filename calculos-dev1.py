@@ -1,14 +1,18 @@
 def add(a, b):
-    return
-
+    return a+b
+    
 
 def subtract(a, b):
-    return
+    return a-b
 
 
 def multiply(a, b):
-    return
+    return a*b
 
 
 def divide(a, b):
-    return
+    if b == 0:
+        return 0
+    else:
+        return a/b
+    
